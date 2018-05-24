@@ -1,0 +1,149 @@
+/*------COULEURS----------
+primaires:
+  bleu clair → #40BDE8
+  framboise → #E40050
+  bleu foncé → #031E51
+  gris → #D2D6D9
+
+events :
+  orange → #FF7E43
+  vert clair → #A5DB92
+  bleu très clair → #BDD0EE
+  vert → #00C590
+*/
+
+/*------TYPOGRAPHIE----------*/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+small {
+    color:#D2D6D9;
+    text-transform: uppercase;
+}
+
+a {
+    color :#E40050;
+    text-decoration: none;
+}
+
+a:hover {
+    color :#7F002D;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1080px;
+}
+
+/*------BOUTON----------*/
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    color: #E40050;
+    border: 2px solid #E40050;
+    transition: all 0.5s ease;
+    transform: translate(0, 0);
+}
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+    cursor: pointer;
+    background: #E40050;
+    color: white;
+    border: 2px solid white;
+    transition: all 0.35s ease;
+    border-radius: 5px;
+}
+
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+    background: #E40050;
+    border: 2px solid #E40050;
+}
+
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+    background: transparent;
+    color: #E40050;
+    border: 2px solid #E40050;
+    transition: all 0.35s ease;
+}
+
+/*------FORMULAIRES----------*/
+
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+    border: 2px solid #E40050;
+    outline: 0; }
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+    border-color:#D2D6D9;
+}
+
+/*--------TABELAUX--------*/
+
+th,
+td {
+    border-bottom-color: #D2D6D9;
+}
+
+/*--------UTILITY--------*/
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}

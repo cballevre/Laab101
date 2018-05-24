@@ -1,0 +1,185 @@
+
+/**** LANDING-PAGE *****/
+.landing{
+    background-color:white;
+}
+
+.landing__section__header {
+    display: flex;
+    justify-content: space-between;
+    padding:25px 40px 15px 40px;
+}
+
+.landing__header__links__item{
+    line-height: 40px;
+    margin-left:80px;
+}
+.landing h2{
+    color: white;
+    font-family: 'Open sans';
+    font-weight: 600;
+    font-size: 40px;
+    padding: 40px 0 10px 0;
+    line-height:60px;
+    margin:0;
+}
+.landing h6{
+    font-family: 'Open sans';
+    font-weight: 700;
+    margin:0;
+    padding:0;
+    color: #E8ECF0;
+}
+
+.landing .logo img{
+    height:40px;
+    margin:0px;
+}
+.landing__section__first,
+.landing__section__second,
+.landing__section__third{
+    display: block;
+    position:relative;
+    padding: 70px 0 70px 0;
+}
+
+
+.landing__section__first{
+    background-color:#40BDE8;
+}
+
+.landing__section__first__container{
+    display:flex;
+}
+
+.landing__section__first h5{
+    line-height:30px;
+    padding: 20px 5px;
+    background-color: #E40050;
+    border-radius: 5px 5px 0 0;
+    font-weight: bold;
+    color: white;
+    text-align:center;
+    margin:0;
+}
+
+.landing__section__first fieldset{
+    position: relative;
+    background-color:white;
+    border-radius:5px;
+    margin-bottom:40px;
+}
+
+.landing__section__first form{
+    padding: 40px;
+    margin:0;
+}
+.landing__section__first input[type="text"],
+.landing__section__first input[type="password"],
+.landing__section__first input[type="email"]{
+    width: 100%;
+}
+
+.landing__section__container{
+    display: inline-flex;
+}
+
+.landing__section__first h2,
+.landing__section__first fieldset{
+    display: inline-block;
+}
+
+.landing__section__second .container{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-items: flex-end;
+    
+}
+
+.landing__section__second__item{
+    margin:0 auto;
+}
+.landing__section__second img{
+   align-items: flex-end;
+}
+
+.landing__section__second{
+    display: block;
+    height: 500px;
+    padding: 70px 0 0 0;
+}
+
+.landing__section__second h3,
+.landing__section__second h4{
+    font-family: 'Open sans';
+}
+
+.landing__section__second h3,
+.landing__section__third h3{
+    font-weight: 600;
+    font-size: 32px;
+    color: #384047;
+    letter-spacing: -.1rem;
+}
+
+.landing__section__second h4,
+.landing__section__third h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.6;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgba(56, 64, 71, 0.5);
+}
+
+.landing__section__third{
+    /*color:white;*/
+    background-color: #F4F7F8/*white #E40050*/;
+}
+
+.landing__section__third h3,
+.landing__section__third h4{
+    width:100%;
+    margin:auto;
+    margin-bottom:20px;
+    text-align:center;
+    font-family: 'Open sans';
+}
+
+.landing__section__third__container__item{
+    display:flex;
+    justify-content:space-around;
+    margin: 0 40px 0 40px;
+}
+
+.landing__section__third__item{
+    padding: 40px 8% 0 8%;
+}
+
+.landing__section__third__item img{
+    width:100%;
+}
+
+.landing__section__third__item h5{
+    text-align: left;
+    font-size: 16px;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.landing__section__third__item p{
+    text-align:left;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.landing__section__fourth__image{
+    width:100%;
+}
+
+.landing__main{
+    margin-top: 0px;
+}
